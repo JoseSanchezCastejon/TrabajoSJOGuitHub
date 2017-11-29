@@ -30,3 +30,6 @@ Registre nuevos archivos de prueba unitaria en test / index.js. Las pruebas est�
 Ejecute las pruebas unitarias a través de: npm test  
 Para pruebas locales de explorador sin cabezera ejecute npm run test-browser (Requiere selenium para instalarse - se puede hacer con npm run selenium-install)  
 Ejecutar las pruebas unitarias a través de la prueba npm requiere al menos el nodo v7.0.0
+
+# Pueba de navegador
+Para iniciar las pruebas Selenium por el servicio Nightwatch la aplicación a través de un servicio local web
