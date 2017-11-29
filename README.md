@@ -27,5 +27,6 @@ npm --versión
 Here are some things to consider if you have trouble building the package.
 •	Make sure that you have the correct version of node, npm and nvm. You can find the version that is tested on Travis CI by looking.
 node --version
+
 npm --version
 •	In Debian based OSes such as Ubuntu 14.04LTS you may need to run apt-get install build-essential. After installing build.
