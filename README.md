@@ -1,5 +1,4 @@
-# TrabajoSJOGuitHub
-#Remix
+# Remix
 
 Remix (también conocido como Browser-Solidity) es un compilador de Solidity basado en navegador e IDE.
 
