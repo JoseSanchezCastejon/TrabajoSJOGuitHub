@@ -16,19 +16,11 @@ Instala npm y node.js (mira https://docs.npmjs.com/getting-started/installing-no
 # Desarrollo
 Ejecute nps start y abra http://127.0.0.1:8080 en su navegador. Luego abre tu editor de texto y comienza a desarrolar. El navegador se actualizara automaticamente cuando se guarden los archivos.
 ## Resolucion de problemas de construccion
+
 Aqui hay algunas cosas a considerar si tiene problemas para contruir el paquete.
-* Asegúrese de tener la version correcta de node, npm y nvm. Puede buscar la version que se prueba en Travis CI.
+  * Asegúrese de tener la version correcta de node, npm y nvm. Puede buscar la version que se prueba en Travis CI.
 
 nodo --versión
 npm --versión
-* En sistemas operativos basados en Debian como Ubuntu 14.94LTS, puede que necesite ejecutar apt-get install build-essential. Después de instalar build
 
-
-Here are some things to consider if you have trouble building the package.
-•	Make sure that you have the correct version of node, npm and nvm. You can find the version that is tested on Travis CI by looking.
-
-node --version
-
-npm --version
-
-•	In Debian based OSes such as Ubuntu 14.04LTS you may need to run apt-get install build-essential. After installing build.
+  * En sistemas operativos basados en Debian como Ubuntu 14.94LTS, puede que necesite ejecutar apt-get install build-essential. Después de instalar build
