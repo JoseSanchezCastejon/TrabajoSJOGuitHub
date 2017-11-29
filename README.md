@@ -32,4 +32,12 @@ Para pruebas locales de explorador sin cabezera ejecute npm run test-browser (Re
 Ejecutar las pruebas unitarias a través de la prueba npm requiere al menos el nodo v7.0.0
 
 # Pueba de navegador
-Para iniciar las pruebas Selenium por el servicio Nightwatch la aplicación a través de un servicio local web
+Para iniciar las pruebas Selenium por el servicio Nightwatch la aplicación a través de un servicio local web:
+
+
+npm run serve # starts web server at localhost:8080
+Entonces necesitarás ya sea:
+1. Tener un servidor Selenium iniciado localmente en el puerto 4444.
+   * Ejecutar: npm run test-browser.
+2. O, instalar e iniciar SauceConnect.
+   * Ejecutar: sc -u <NOMBRE DE USUARIO> -k <CLAVE DE ACCESO> (mira .travis.yml para valores)
