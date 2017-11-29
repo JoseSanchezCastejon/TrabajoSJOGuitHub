@@ -26,7 +26,7 @@ npm --versión
   * En sistemas operativos basados en Debian como Ubuntu 14.94LTS, puede que necesite ejecutar apt-get install build-essential. Después de instalar build
 
 # Test de la unidad
-Registre nuevos archivos de prueba unitaria en test / index.js. Las pruebas están escritas usando cinta.  
-Ejecute las pruebas unitarias a través de: prueba npm  
-Para pruebas locales de explorador sin cabeza ejecute npm run test-browser (Requiere selenio para instalarse - se puede hacer con npm run selenium-install)  
+Registre nuevos archivos de prueba unitaria en test / index.js. Las pruebas están escritas usando __cinta__.  
+Ejecute las pruebas unitarias a través de: npm test  
+Para pruebas locales de explorador sin cabezera ejecute npm run test-browser (Requiere selenium para instalarse - se puede hacer con npm run selenium-install)  
 Ejecutar las pruebas unitarias a través de la prueba npm requiere al menos el nodo v7.0.0
