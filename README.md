@@ -30,5 +30,4 @@ Here are some things to consider if you have trouble building the package.
 node --version
 
 npm --version
-
 •	In Debian based OSes such as Ubuntu 14.04LTS you may need to run apt-get install build-essential. After installing build.
