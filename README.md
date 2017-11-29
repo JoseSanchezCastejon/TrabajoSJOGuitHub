@@ -18,6 +18,7 @@ Ejecute nps start y abra http://127.0.0.1:8080 en su navegador. Luego abre tu ed
 ## Resolucion de problemas de construccion
 Aqui hay algunas cosas a considerar si tiene problemas para contruir el paquete.
 * Asegúrese de tener la version correcta de node, npm y nvm. Puede buscar la version que se prueba en Travis CI.
+
 nodo --versión
 npm --versión
 * En sistemas operativos basados en Debian como Ubuntu 14.94LTS, puede que necesite ejecutar apt-get install build-essential. Después de instalar build
