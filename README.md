@@ -20,17 +20,13 @@ Ejecute nps start y abra http://127.0.0.1:8080 en su navegador. Luego abre tu ed
 Aqui hay algunas cosas a considerar si tiene problemas para contruir el paquete.
   * Asegúrese de tener la version correcta de node, npm y nvm. Puede buscar la version que se prueba en Travis CI.
 
-nodo --versión
-
+nodo --versión  
 npm --versión
 
   * En sistemas operativos basados en Debian como Ubuntu 14.94LTS, puede que necesite ejecutar apt-get install build-essential. Después de instalar build
 
 # Test de la unidad
-Registre nuevos archivos de prueba unitaria en test / index.js. Las pruebas están escritas usando cinta.
-
-Ejecute las pruebas unitarias a través de: prueba npm
-
-Para pruebas locales de explorador sin cabeza ejecute npm run test-browser (Requiere selenio para instalarse - se puede hacer con npm run selenium-install)
-
+Registre nuevos archivos de prueba unitaria en test / index.js. Las pruebas están escritas usando cinta.  
+Ejecute las pruebas unitarias a través de: prueba npm  
+Para pruebas locales de explorador sin cabeza ejecute npm run test-browser (Requiere selenio para instalarse - se puede hacer con npm run selenium-install)  
 Ejecutar las pruebas unitarias a través de la prueba npm requiere al menos el nodo v7.0.0
